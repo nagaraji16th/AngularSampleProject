@@ -1,0 +1,31 @@
+<div class="adminx-container" style="background-repeat: no-repeat; background-size: cover; background-position: center center; height: 100vh">
+    <div style="height: 70vh"> 
+    <div class="page-login">
+    <div class="card mb-2">
+    <div class="card-body">
+    <form [formGroup]="loginForm"  (ngSubmit)="onFormSubmit()">
+    <div class="form-group">
+    <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
+    <input type="email" formControlName="username"  [(ngModel)]="testuser" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+    </div>
+    <div class="form-group">
+    <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+    <input formControlName="password" type="password"  [(ngModel)]="testpassword" formControlName="password" class="form-control" placeholder="Password" required>
+    <div *ngIf="loginError" style="color: red">Email or Password Incorrect</div>
+    </div>
+    <div class="form-group">
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" id="customCheck1">
+    <label class="custom-control-label" for="customCheck1">Remember me</label>
+    </div>
+    </div>
+    <button type="submit" [disabled]="!loginForm.valid" class="btn btn-primary" class="btn btn-sm btn-block rounded " style="background-color: #0099cc">Sign in</button>
+    </form>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    
+

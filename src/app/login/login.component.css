@@ -1,0 +1,12 @@
+div.loading{
+    height: 100px;
+    background-color: red;
+    display: none;
+}
+router-outlet + div.loading{
+    display: block;
+}
+.page-login{
+    max-width: 48rem;
+    padding: 216px;
+}

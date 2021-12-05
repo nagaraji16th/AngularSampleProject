@@ -1,0 +1,148 @@
+{
+    "employees": [
+      {
+        "Name": "Nagarjuna",
+        "DOB": "15/07/1990",
+        "Gender": "male",
+        "Qualification": "MCA",
+        "Email": "nagarjuna90it@gmail.com",
+        "Skills": "angular",
+        "Action": "edit"
+      },
+      {
+        "Name": "Raj",
+        "DOB": "12/08/1995",
+        "Gender": "male",
+        "Qualification": "B.tech",
+        "Email": "raj@gmail.com",
+        "Skills": "java",
+        "Action": "delete"
+      },
+      {
+        "Name": "rajeswari",
+        "DOB": "12/04/1993",
+        "Gender": "female",
+        "Qualification": "MCA",
+        "Email": "rajeswari@gmail.com",
+        "Skills": "MEAN stack",
+        "Action": "edit"
+      },
+          {
+        "Name": "padma",
+        "DOB": "12/04/1995",
+        "Gender": "female",
+        "Qualification": "B.SC",
+        "Email": "padma@gmail.com",
+        "Skills": "UI",
+        "Action": "delete"
+      },
+      {
+        "Name": "Nagarjuna",
+        "DOB": "15/07/1990",
+        "Gender": "male",
+        "Qualification": "MCA",
+        "Email": "nagarjuna90it@gmail.com",
+        "Skills": "angular",
+        "Action": "edit"
+      },
+      {
+        "Name": "Raj",
+        "DOB": "12/08/1995",
+        "Gender": "male",
+        "Qualification": "B.tech",
+        "Email": "raj@gmail.com",
+        "Skills": "java",
+        "Action": "delete"
+      },
+      {
+        "Name": "rajeswari",
+        "DOB": "12/04/1993",
+        "Gender": "female",
+        "Qualification": "MCA",
+        "Email": "rajeswari@gmail.com",
+        "Skills": "MEAN stack",
+        "Action": "edit"
+      },
+          {
+        "Name": "padma",
+        "DOB": "12/04/1995",
+        "Gender": "female",
+        "Qualification": "B.SC",
+        "Email": "padma@gmail.com",
+        "Skills": "UI",
+        "Action": "delete"
+      },
+      {
+        "Name": "Nagarjuna",
+        "DOB": "15/07/1990",
+        "Gender": "male",
+        "Qualification": "MCA",
+        "Email": "nagarjuna90it@gmail.com",
+        "Skills": "angular",
+        "Action": "edit"
+      },
+      {
+        "Name": "Raj",
+        "DOB": "12/08/1995",
+        "Gender": "male",
+        "Qualification": "B.tech",
+        "Email": "raj@gmail.com",
+        "Skills": "java",
+        "Action": "delete"
+      },
+      {
+        "Name": "rajeswari",
+        "DOB": "12/04/1993",
+        "Gender": "female",
+        "Qualification": "MCA",
+        "Email": "rajeswari@gmail.com",
+        "Skills": "MEAN stack",
+        "Action": "edit"
+      },
+          {
+        "Name": "padma",
+        "DOB": "12/04/1995",
+        "Gender": "female",
+        "Qualification": "B.SC",
+        "Email": "padma@gmail.com",
+        "Skills": "UI",
+        "Action": "delete"
+      },
+      {
+        "Name": "Nagarjuna",
+        "DOB": "15/07/1990",
+        "Gender": "male",
+        "Qualification": "MCA",
+        "Email": "nagarjuna90it@gmail.com",
+        "Skills": "angular",
+        "Action": "edit"
+      },
+      {
+        "Name": "Raj",
+        "DOB": "12/08/1995",
+        "Gender": "male",
+        "Qualification": "B.tech",
+        "Email": "raj@gmail.com",
+        "Skills": "java",
+        "Action": "delete"
+      },
+      {
+        "Name": "rajeswari",
+        "DOB": "12/04/1993",
+        "Gender": "female",
+        "Qualification": "MCA",
+        "Email": "rajeswari@gmail.com",
+        "Skills": "MEAN stack",
+        "Action": "edit"
+      },
+          {
+        "Name": "padma",
+        "DOB": "12/04/1995",
+        "Gender": "female",
+        "Qualification": "B.SC",
+        "Email": "padma@gmail.com",
+        "Skills": "UI",
+        "Action": "delete"
+      }
+    ]
+  }

@@ -1,0 +1,71 @@
+<div style="margin: 50px;">
+
+<div class="form-group col-md-4">
+  <strong>Gender Filter</strong>
+
+  <select class="form-control"
+  [(ngModel)]="Gender">
+<option></option>      
+<option value="male">male</option>
+<option value="female">female</option>
+</select>
+  <input type="text" class="form-control"  style="margin-top: 10px;" placeholder="Enter Keyword for filter result" [(ngModel)]="searchedKeyword">
+</div>
+<div>
+  <div class="p-2 bd-highlight">
+    <select (change)="tableData($event)" class="custom-select">
+      <option *ngFor="let size of tableSizesArr" [ngValue]="size">
+        {{ size }}
+      </option>
+    </select>
+  </div>
+</div>
+
+  <table id="tableSortExample" mdbTable  class="table z-depth-1 table-striped" data-table>
+
+    <thead>
+      <tr>
+        <th *ngFor="let head of headElements; let i = index" aria-controls="tableSortExample" scope="col" [mdbTableSort]="jsondata" [sortBy]="headElements[i]">{{head | titlecase}}
+          <mdb-icon fas icon="sort"></mdb-icon>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+
+
+        <tr *ngFor ="let dataofjson of jsondata | filter:searchedKeyword | tableFilter: Gender | paginate : {
+          itemsPerPage: tableSize,
+          currentPage: page,
+          totalItems: count
+        };
+  let i = index" [class.active]="i == 3">
+
+
+
+          <td>{{dataofjson.Name}}</td>
+          <td>{{dataofjson.DOB}}</td>
+          <td [ngStyle]="{'background-color':dataofjson.Gender === 'male' ? 'blue' : 'red' }"> {{dataofjson.Gender}}</td>
+          <td>{{dataofjson.Qualification}}</td>
+          <td>{{dataofjson.Email}}</td>
+          <td>{{dataofjson.Skills}}</td>
+          <td>{{dataofjson.Action}}</td>
+
+        </tr>
+
+    </tbody>
+  </table>
+  <div class="d-flex justify-content-center">
+    <pagination-controls  previousLabel="Prev" nextLabel="Next" (pageChange)="tabSize($event)">
+    </pagination-controls>
+  </div>
+  </div>
+  <!-- <div style="display: block;">
+    <canvas baseChart 
+      [data]="pieChartData" 
+      [labels]="pieChartLabels" 
+      [chartType]="pieChartType"
+      [options]="pieChartOptions"
+      [plugins]="pieChartPlugins"
+      [legend]="pieChartLegend">
+    </canvas>
+  </div> -->
